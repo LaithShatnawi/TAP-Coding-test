@@ -184,6 +184,10 @@ b {
 
 @media (max-width:500px) {
 
+    .nav_bar {
+        position: relative;
+    }
+
     .card {
         width: 370px;
     }

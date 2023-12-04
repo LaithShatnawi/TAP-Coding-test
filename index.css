@@ -292,6 +292,10 @@ textarea {
 
 @media (max-width: 1318px) {
 
+    .nav_bar{
+        position: relative;
+    }
+
     .welcome_text {
         width: 300px;
     }
