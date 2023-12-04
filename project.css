@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Encode+Sans+Condensed:wght@500&family=Inclusive+Sans&family=Jost:wght@200&family=Merriweather+Sans:wght@300&family=Montserrat:wght@300&family=Noto+Serif:ital@1&family=Oswald&family=Poppins:wght@100;300;400;800&display=swap');
+
+
+:root {
+    --brown: #D1884F;
+    --blue: #008AAA;
+    --light: #3BBADB;
+}
+
+.project_section {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_container {
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 30px 0px 30px;
+    padding: 10px 0 10px 10px;
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+}
+
+.description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.card {
+    cursor: pointer;
+    width: 420px;
+    height: 320px;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.inner_card {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.wanderlust_img {
+    border-radius: 20px;
+    width: 380px;
+    padding: 10px;
+}
+
+
+.techno_used {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.fa-brands {
+    font-size: 40px;
+}
+
+b {
+    color: var(--light);
+}
+
+#wander {
+    color: var(--brown);
+}
+
+@media (max-width:973px) {
+
+    .card {
+        width: 320px;
+    }
+
+    .inner_card {
+        width: 300px;
+    }
+
+    .wanderlust_img {
+        width: 280px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:773px) {
+    .card {
+        width: 270px;
+    }
+
+    .inner_card {
+        width: 250px;
+    }
+
+    .wanderlust_img {
+        width: 230px;
+        height: 60%;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:673px) {
+    .card {
+        width: 220px;
+    }
+
+    .inner_card {
+        width: 200px;
+    }
+
+    .wanderlust_img {
+        width: 180px;
+        height: 60%;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .fa-brands {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:573px) {
+    .card {
+        width: 470px;
+    }
+
+    .inner_card {
+        width: 450px;
+    }
+
+    .wanderlust_img {
+        width: 430px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .card_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .description {
+        width: 470px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .card {
+        width: 370px;
+    }
+
+    .inner_card {
+        width: 350px;
+    }
+
+    .wanderlust_img {
+        width: 330px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .card_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .description {
+        width: 370px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .card {
+        width: 270px;
+    }
+
+    .inner_card {
+        width: 250px;
+    }
+
+    .wanderlust_img {
+        width: 230px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .card_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .description {
+        width: 270px;
+    }
+}
+
+@media (max-width:300px) {
+
+    .card {
+        width: 170px;
+    }
+
+    .inner_card {
+        width: 150px;
+    }
+
+    .wanderlust_img {
+        width: 130px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .card_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .description {
+        width: 170px;
+    }
+}

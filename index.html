@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assests/favicon.png" type="image/x-icon">
+    <title>Laith Shatnawi</title>
+</head>
+
+<body>
+    <nav class="nav_bar">
+        <ul class="nav_tabs">
+            <li>
+                <a href="#homeSection" class="tab">
+                    <i class="fa-solid fa-house"></i><span class="navText">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#aboutMe" class="tab">
+                    <i class="fa-solid fa-user"></i><span class="navText">About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="#contactSection" class="tab">
+                    <i class="fa-solid fa-phone"></i><span class="navText">Contact Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section class="home_section" id="homeSection">
+        <div class="welcome_text">
+            <p class="welcomeToMySite">Welcome to my site</p>
+            <h1>Hi, I'm Laith, a <br>Full Stack <span class="developer">Web Developer.</span></h1>
+            <p>
+                I'm a hard working person who's open to learning new things and <br> who enjoys creating products that
+                make users' experiences better. <a class="seeMore" href="#aboutMe">See More...</a>
+            </p>
+            <div class="buttons">
+                <a href="#contactSection"><button class="hireMeBtn">Hire Me !</button></a>
+                <a href="./project.html"><button class="seeProjectBtn">See My Project</button></a>
+            </div>
+        </div>
+        <div class="profile_pic">
+            <div class="card_img"></div>
+            <div class="shadow"></div>
+            <img class="profile_img" src="./assests/laith profile.png" alt="profile">
+        </div>
+    </section>
+    <section id="aboutMe">
+        <h2>ABOUT ME</h2>
+        <article class="aboutMe_info">
+            I am <b>Laith Shatnawi</b>, a proactive Full Stack Developer based in Amman, Jordan. My enthusiasm and
+            optimistic
+            approach drive me to embrace any challenge, and I am dedicated to crafting products that elevate user
+            experiences. Armed with a Bachelor's degree in Electrical Power Engineering from Yarmouk University, I
+            further honed my skills through a comprehensive internship at LTUC-Abdul Aziz Al Ghurair School of Advanced
+            Computing. Proficient in JavaScript, HTML, CSS, React.js, Node.js, and more, I bring expertise in database
+            design, Role-Based Access Control (RBAC), and socket.io development, showcasing my proficiency in full-stack
+            development.
+        </article>
+    </section>
+    <section class="contactMe_overlay">
+        <div class="socials_container">
+            <a href="https://github.com/LaithShatnawi" target="_blank"><i class="fa-brands fa-github"
+                    style="color: #ffffff;"></i></a>
+            <a href="https://www.linkedin.com/in/laith-shatnawi97" target="_blank"><i class="fa-brands fa-linkedin"
+                    style="color: #ffffff;"></i></a>
+        </div>
+        <div class="contact_shade"></div>
+        <div class="contactMe_section" id="contactSection">
+            <form class="contact_form">
+                <div class="input_container">
+                    <label for="">Name</label>
+                    <input type="text">
+                </div>
+                <div class="input_container">
+                    <label for="">Email</label>
+                    <input type="text">
+                </div>
+                <div class="input_container">
+                    <label for="" class="comments_label">Comments</label>
+                    <textarea name="" id="textarea" cols="50" rows="10"></textarea>
+                </div>
+                <button class="submitBtn" type="button">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
