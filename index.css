@@ -228,6 +228,7 @@ button {
     justify-content: center;
     gap: 20px;
     color: white;
+    width: 400px;
 }
 
 .submitBtn {
@@ -284,6 +285,17 @@ label {
 input,
 textarea {
     font-family: 'Poppins', sans-serif;
+}
+
+.textarea{
+width: 100%;
+}
+
+textarea{
+    width:100%;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .comments_label {
@@ -431,9 +443,9 @@ textarea {
         font-size: 25px;
     }
 
-    #textarea {
+    /* #textarea {
         width: 50%;
-    }
+    } */
 
     .welcome_text {
         font-size: small;
