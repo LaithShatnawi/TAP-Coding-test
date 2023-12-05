@@ -390,6 +390,10 @@ textarea{
         flex-direction: column;
         align-items: center;
     }
+
+    .home_section {
+        height: 1000px;
+    }
 }
 
 @media (max-width: 524px) {
